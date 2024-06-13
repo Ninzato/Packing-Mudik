@@ -24,7 +24,7 @@ export default function App() {
   }
 
   function handleClearList() {
-    if (window.confirm("Are you sure you want to delete all items?"))
+    if (window.confirm("Anda yakin ingin menghapus semua barang?"))
       setItems([]);
   }
 

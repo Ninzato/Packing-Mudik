@@ -37,12 +37,12 @@ export default function PackingList({
       </ul>
       <div className="actions">
         <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
-          <option value="input">Sort by input order</option>
-          <option value="description">Sort by description</option>
-          <option value="packed">Sort by packed status</option>
+          <option value="input">Urut berdasarkan urutan masukan</option>
+          <option value="description">Urut berdasarkan deskripsi</option>
+          <option value="packed">Urut berdasarkan status packing</option>
         </select>
         <button className="btn-clear" onClick={onClearList}>
-          Clear Items
+          Kosongkan Daftar
         </button>
       </div>
     </div>

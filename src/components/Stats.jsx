@@ -14,7 +14,7 @@ export default function Stats({ items }) {
       <em>
         {packedPercentage === 100
           ? "Semua sudah masuk koper! Siap berangkat! ✈️"
-          : `💼 Kamu bawa ${items.length} barang dan kamu sudah masukin
+          : `💼 Kamu bawa ${items.length} barang dan kamu sudah memasukkan
           ${numPacked} (${numPacked ? packedPercentage : 0}%) ke dalam koper`}
       </em>
     </footer>

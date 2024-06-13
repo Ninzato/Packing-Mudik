@@ -34,11 +34,11 @@ export default function Form({ onAddItems }) {
         </select>
         <input
           type="text"
-          placeholder="Item..."
+          placeholder="Nama Barang.."
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
-        <button>Add</button>
+        <button>Tambah Barang</button>
       </div>
     </form>
   );
