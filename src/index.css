@@ -162,7 +162,12 @@ input[type="checkbox"] {
   padding: 3.2rem 2rem;
 }
 
-ul::-webkit-scrollbar {
+.items {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.items::-webkit-scrollbar {
   display: none;
   scroll-behavior: smooth;
 }

@@ -25,7 +25,7 @@ export default function PackingList({
 
   return (
     <div className="list">
-      <ul>
+      <ul className="items">
         {sortedItems.map((item) => (
           <Item
             item={item}
