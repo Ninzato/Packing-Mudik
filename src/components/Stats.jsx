@@ -2,7 +2,7 @@ export default function Stats({ items }) {
   if (!items.length)
     return (
       <footer className="stats">
-        <em>Start adding some items to your packing list 🚀</em>
+        <em>Ayo mulai tambahkan barang ke dalam daftar barang bawaanmu! 🚀</em>
       </footer>
     );
 
